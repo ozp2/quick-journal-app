@@ -1,13 +1,13 @@
 //
-//  habit_trackerUITests.swift
-//  habit-trackerUITests
+//  my_thoughtsUITests.swift
+//  my-thoughtsUITests
 //
 //  Created by Olivia on 7/11/25.
 //
 
 import XCTest
 
-final class habit_trackerUITests: XCTestCase {
+final class my_thoughtsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

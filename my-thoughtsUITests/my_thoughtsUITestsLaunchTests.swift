@@ -1,13 +1,13 @@
 //
-//  habit_trackerUITestsLaunchTests.swift
-//  habit-trackerUITests
+//  my_thoughtsUITestsLaunchTests.swift
+//  my-thoughtsUITests
 //
 //  Created by Olivia on 7/11/25.
 //
 
 import XCTest
 
-final class habit_trackerUITestsLaunchTests: XCTestCase {
+final class my_thoughtsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
