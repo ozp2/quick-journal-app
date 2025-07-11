@@ -1,4 +1,4 @@
-# My Thoughts
+# Simple macOS menu bar app for journaling / thought tracking
 
 A macOS app for capturing and organizing your thoughts.
 
