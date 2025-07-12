@@ -16,7 +16,7 @@ A macOS app for capturing and organizing your thoughts.
 ## Building
 
 1. Clone the repository
-2. Open `my-thoughts.xcodeproj` in Xcode
+2. Open `fishbowl.xcodeproj` in Xcode
 3. Build and run the project
 
 ## License

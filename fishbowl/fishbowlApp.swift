@@ -1,6 +1,6 @@
 //
-//  my_thoughtsApp.swift
-//  my-thoughts
+//  fishbowlApp.swift
+//  fishbowl
 //
 //  Created by Olivia on 7/11/25.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import AppKit
 
 @main
-struct my_thoughtsApp: App {
+struct fishbowlApp: App {
     // Create the popover and status item
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {

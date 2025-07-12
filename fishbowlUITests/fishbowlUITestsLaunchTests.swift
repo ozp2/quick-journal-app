@@ -1,13 +1,13 @@
 //
-//  my_thoughtsUITestsLaunchTests.swift
-//  my-thoughtsUITests
+//  fishbowlUITestsLaunchTests.swift
+//  fishbowlUITests
 //
 //  Created by Olivia on 7/11/25.
 //
 
 import XCTest
 
-final class my_thoughtsUITestsLaunchTests: XCTestCase {
+final class fishbowlUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

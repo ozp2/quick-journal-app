@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  my-thoughts
+//  fishbowl
 //
 //  Created by Olivia on 7/11/25.
 //

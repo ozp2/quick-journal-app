@@ -1,13 +1,13 @@
 //
-//  my_thoughtsUITests.swift
-//  my-thoughtsUITests
+//  fishbowlUITests.swift
+//  fishbowlUITests
 //
 //  Created by Olivia on 7/11/25.
 //
 
 import XCTest
 
-final class my_thoughtsUITests: XCTestCase {
+final class fishbowlUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
