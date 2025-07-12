@@ -34,7 +34,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Create the status bar item
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         if let button = statusItem.button {
-            button.image = NSImage(systemSymbolName: "brain.head.profile", accessibilityDescription: "Olivia's Thoughts")
+            // Use custom icon from asset catalog
+            if let image = NSImage(named: "thoughts") {
+                // Configure the image for menu bar display
+                image.size = NSSize(width: 18, height: 18)
+                image.isTemplate = true // This makes it adapt to light/dark menu bar
+                button.image = image
+            } else {
+                // Fallback to system symbol if custom image not found
+                button.image = NSImage(systemSymbolName: "brain.head.profile", accessibilityDescription: "Olivia's Thoughts")
+            }
             button.action = #selector(togglePopover(_:))
             button.target = self
         }
